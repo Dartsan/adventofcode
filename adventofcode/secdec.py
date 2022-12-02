@@ -1,6 +1,5 @@
 def rock_paper_scissor():
-    with open("/Users/olivertanzer/Library/CloudStorage/OneDrive-Personal/Uni/1.Semester/Software Design/Python "
-              "Projecte/pythonProject/adventofcode/ressource/secdecinput") as f:
+    with open("ressource/secdecinput.txt") as f:
         content = f.read()
         value = content.split("\n")
         erg = 0
