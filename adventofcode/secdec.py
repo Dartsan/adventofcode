@@ -1,4 +1,5 @@
 def rock_paper_scissor():
+
     with open("ressource/secdecinput.txt") as f:
         content = f.read()
         value = content.split("\n")
