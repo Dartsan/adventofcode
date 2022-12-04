@@ -1,6 +1,5 @@
 def getranges1():
-    with open("/Users/olivertanzer/Library/CloudStorage/OneDrive-Personal/Uni/1.Semester/Software Design/Python "
-              "Projecte/pythonProject/adventofcode/ressource/fourthdec.txt") as f:
+    with open("fourthdec.txt") as f:
         content = f.read()
         a = content.split("\n")
         counter = 0
@@ -18,8 +17,7 @@ def getranges1():
 
 
 def getranges2():
-    with open("/Users/olivertanzer/Library/CloudStorage/OneDrive-Personal/Uni/1.Semester/Software Design/Python "
-              "Projecte/pythonProject/adventofcode/ressource/fourthdec.txt") as f:
+    with open("fourthdec.txt") as f:
         content = f.read()
         a = content.split("\n")
         counter = 0
